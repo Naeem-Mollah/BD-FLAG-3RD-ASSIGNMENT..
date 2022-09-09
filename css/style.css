@@ -1,0 +1,58 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 1500px;
+	
+}
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 18%;
+	left: 35%;
+}
+.facebook{
+	width: 200px;
+	position: fixed;
+	top: 50%;
+	right: -133px;
+	transition: 1s;
+}
+
+.facebook:hover {
+	right: -2px;
+}
+
+.instagram{
+	width: 200px;
+	position: fixed;
+	top: 65%;
+	right: -133px;
+	transition: 1s;
+}
+
+.instagram:hover {
+	right: -2px;
+}
+.twiter{
+	width: 200px;
+	position: fixed;
+	top: 80%;
+	right: -133px;
+	transition: 1s;
+}
+
+.twiter:hover {
+	right: -2px;
+}
